@@ -28,6 +28,8 @@ artifacts {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$KOTLIN_VERSION"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$KOTLIN_VERSION"
+    compile "org.jetbrains.kotlin:kotlin-reflect:$KOTLIN_VERSION"
     compile "com.squareup:javapoet:$JAVAPOET_VERSION"
     compile "com.squareup:kotlinpoet:$KOTLINPOET_VERSION"
 
